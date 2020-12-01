@@ -1,0 +1,130 @@
+#Supe1{
+	/*Margen centro superior*/
+	background: linear-gradient(#E7B200, #FFFFFF);
+
+	width: 990px;
+	height: 150px;
+	margin-left: 150px;
+	margin-top: -150px;
+}
+
+#s1i{
+	/*Cuadro de la parte izquierda superior*/
+	background-color: #010101;
+	width: 150px;
+	height: 150px;
+	margin-left: -10px;
+	margin-top: 20px;
+}
+
+#D1A{
+	/*Cuadro de la parte derecha superior*/
+	background-color: #010101;
+	width: 150px;
+	height: 150px;
+	margin-left: 1090px;
+	margin-top: -150px;
+}
+
+#centrotra{
+	/*Caja de trabajo centro de pagina */
+	background-color: #white;
+	width: 1050px;
+	height: 430px;
+	margin-left: 200px;
+
+}
+
+#centrotra1{
+ text-align: justify;
+
+}
+
+#titulodos{
+  width: 1030px;
+  height: 200px;
+  padding-left: 60px; 
+}
+
+#img1{
+
+  width: 500;
+  height:200;
+  margin-left: 40px;
+  float: left;
+}
+
+#img2{
+
+  width: 500;
+  height:200;
+  margin-left: 470px;
+  float: left;
+}
+
+#letra{
+ text-align: justify;
+ padding-top: 40px;
+ padding-left: 350px;
+ margin-right: 100px;
+ font-family: 'Bree Serif', serif;
+
+
+}
+
+#piepagina{
+	background: linear-gradient(#FFFFFF, #E7B200);
+
+	width: 1268px;
+	height: 150px;
+	margin-left: 0px;
+	margin-top: -2px;	
+}
+
+nav{
+	background-color: #004669;
+	width: 150px;
+	height: 470px;
+	
+}
+/*menu general*/
+nav ul{
+	list-style: none;
+	padding: 0;
+}
+nav li{
+	line-height:3rem;
+	position: relative;
+}
+nav li ul{
+	position: absolute;
+}
+nav a {
+	text-decoration: none;
+	display: block;
+	padding: 0.4cm;
+	text-decoration: none;
+	transition: 0.0s;
+
+}
+nav a:hover{
+	background:#E7B200;
+}
+nav li ul{ 
+	display:none;
+
+}
+nav li:hover > ul{
+	display: block;
+}
+/*primer nivel*/
+
+}
+nav > ul{
+	background:blue;
+	display: table;
+	width: 100%;
+
+}
+nav > ul > li{
+	float: left;
